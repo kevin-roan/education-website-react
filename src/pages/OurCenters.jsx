@@ -23,7 +23,7 @@ export const MapCard = () => {
     <>
       <div className="map-card">
         <div className="map">
-          <img src="https://miro.medium.com/v2/resize:fit:1400/1*qYUvh-EtES8dtgKiBRiLsA.png" />
+          <div className="google-map">google map</div>
         </div>
         <h1 className="state-text">Calicut</h1>
         <div className="card-footer">

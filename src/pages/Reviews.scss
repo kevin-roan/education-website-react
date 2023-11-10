@@ -3,6 +3,9 @@
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
   padding: 2rem;
   width: 20vmax;
+  @media screen and (max-width: 850px) {
+    width: 100%;
+  }
   img {
     height: 50px;
     border-radius: 20px;

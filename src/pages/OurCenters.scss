@@ -1,7 +1,7 @@
 .map-card {
   box-shadow: 0 0 39px rgba(0, 0, 0, 0.2);
   min-width: 20vmax;
-  height: 25vmax;
+  min-height: 25vmax;
   margin: 2rem;
 }
 
@@ -18,9 +18,9 @@
 
 .map {
   padding: 10px;
-  img {
-    height: 20em;
-    max-width: 23em;
+  .google-map {
+    height: 17vmax;
+    max-width: 20vmax;
   }
 }
 .card-footer {
