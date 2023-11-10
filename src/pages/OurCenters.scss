@@ -1,0 +1,44 @@
+.map-card {
+  box-shadow: 0 0 39px rgba(0, 0, 0, 0.2);
+  min-width: 20vmax;
+  height: 25vmax;
+  margin: 2rem;
+}
+
+.state-text {
+  text-align: center;
+  margin: 10px;
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.map {
+  padding: 10px;
+  img {
+    height: 20em;
+    max-width: 23em;
+  }
+}
+.card-footer {
+  display: flex;
+  border-top: 1px solid var(--primary-color);
+  padding: 10px;
+  justify-content: space-between;
+  h4 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    font-weight: 300;
+  }
+  button {
+    font-size: 14px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}

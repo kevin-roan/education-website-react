@@ -1,0 +1,26 @@
+.user_card_header {
+  margin: 1rem;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 20vmax;
+  img {
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+}
+.userinfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  button {
+    background-color: orange;
+    border: none;
+    padding: 5px 20px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+}

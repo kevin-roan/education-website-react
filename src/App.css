@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap");
+
+#root {
+  --primary-color: #14b0a9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+.greeting-container {
+  height: 100vh;
+  background: #03b97c
+    url("https://www.yugeneducation.com/assets/img/banner-3.jpg") no-repeat;
+  background-size: cover;
+}
+.greeting-container::before {
+  position: absolute;
+  content: "";
+  background: #052044;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
