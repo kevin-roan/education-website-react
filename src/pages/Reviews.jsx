@@ -1,4 +1,5 @@
 import { PageContainer } from "../components";
+import { AiFillStar } from "react-icons/ai";
 import "./Reviews.scss";
 const Reviews = () => {
   return (
@@ -26,7 +27,9 @@ const ReviewCard = () => {
         <div>
           <h3>Kevin Roan</h3>
           <p>Calicut</p>
-          <button className="rating">& 4.7</button>
+          <button className="rating">
+            <AiFillStar /> 4.7
+          </button>
         </div>
       </div>
       <p>

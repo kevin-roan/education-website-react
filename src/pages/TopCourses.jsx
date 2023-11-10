@@ -1,3 +1,4 @@
+import { PageContainer } from "../components";
 import "./TopCourses.scss";
 
 const TopCourses = () => {
@@ -27,6 +28,40 @@ const CourseCard = ({ title, link }) => {
     <div className="course-card-container">
       <h1>{title}</h1>
       <button className="apply-button">Apply Now</button>
+    </div>
+  );
+};
+
+export const TopCoursesIncludes = () => {
+  return (
+    <div>
+      <PageContainer
+        title="Courses Includes"
+        component={
+          <div className="courses-list-contiainer">
+            <div>
+              <h4>CourseName</h4>
+              <button>View</button>
+            </div>
+            <div>
+              <h4>CourseName</h4>
+              <button>View</button>
+            </div>
+            <div>
+              <h4>CourseName</h4>
+              <button>View</button>
+            </div>
+            <div>
+              <h4>CourseName</h4>
+              <button>View</button>
+            </div>
+            <div>
+              <h4>CourseName</h4>
+              <button>View</button>
+            </div>
+          </div>
+        }
+      />
     </div>
   );
 };
