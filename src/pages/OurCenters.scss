@@ -21,6 +21,11 @@
   .google-map {
     height: 17vmax;
     max-width: 20vmax;
+    img {
+      width: 100%;
+      height: 100%;
+      border: 1px solid grey;
+    }
   }
 }
 .card-footer {

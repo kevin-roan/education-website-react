@@ -1,9 +1,5 @@
-.greeting-container {
-  background: #03b97c
-    url("https://www.yugeneducation.com/assets/img/banner-3.jpg") no-repeat;
-  background-size: cover;
-}
 .home-container::before {
+  display: none;
   position: absolute;
   content: "";
   background: #052044;
@@ -16,7 +12,8 @@
 
 .home-container {
   background: #03b97c
-    url("https://www.yugeneducation.com/assets/img/banner-3.jpg") no-repeat;
+    url("https://images.pexels.com/photos/6694866/pexels-photo-6694866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+    no-repeat;
   background-size: cover;
   min-height: 100vh; /* Set height to full viewport height */
   display: flex;
