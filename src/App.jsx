@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header } from "./components";
+import { Footer, Header } from "./components";
 import { Reviews, TopCourses } from "./pages";
 import Home from "./pages/Home";
 import OurCenters from "./pages/OurCenters";
@@ -14,6 +14,7 @@ const App = () => {
       <OurCenters />
       <Reviews />
       <TopCoursesIncludes />
+      <Footer />
     </div>
   );
 };
