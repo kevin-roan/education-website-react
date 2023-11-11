@@ -1,7 +1,6 @@
 .container {
   min-height: 10vh;
-  background-color: transparent;
-  backdrop-filter: blur(10px);
+  background-color: #14b0a9;
   font-size: 10px;
   display: flex;
   justify-content: space-between;
@@ -42,8 +41,8 @@
 
 .call_button {
   font-size: 20px;
-  color: white;
-  background-color: var(--primary-color);
+  background-color: white;
+  color: var(--primary-color);
   border: none;
   margin: 0 2vmax;
   padding: 0.5vmax 2vmax;
