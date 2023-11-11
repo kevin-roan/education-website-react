@@ -7,7 +7,7 @@ import { TopCoursesIncludes } from "./pages/TopCourses";
 
 const App = () => {
   return (
-    <div className="greeting-container">
+    <div>
       <Header />
       <Home />
       <TopCourses />
