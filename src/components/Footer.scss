@@ -87,6 +87,9 @@
       grid-template-columns: repeat(2, 2);
       overflow: auto;
       div {
+        img {
+          margin-top: 2rem;
+        }
         max-width: 100vh;
       }
     }
