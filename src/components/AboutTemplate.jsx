@@ -1,18 +1,17 @@
 import "./AboutTemplate.scss";
-import AboutUs from "../pages/AboutUs";
 
-function AboutTemplate() {
+function AboutTemplate({ heading, path, component }) {
   return (
     <div>
       <div className="about-template-top">
         <div className="about-template-text">
-          <h1>Who We Are ?</h1>
+          <h1>{heading}</h1>
           <p>
-            Home / <span>AboutUs</span>
+            Home / <span>{path}</span>
           </p>
         </div>
       </div>
-      <AboutUs />
+      {component}
     </div>
   );
 }

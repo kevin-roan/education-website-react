@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
 import "./AppBar.scss";
 
 const navItems = [
@@ -17,21 +16,21 @@ const navItems = [
     cName: "nav-links",
   },
   {
-    name: "Service",
+    name: "Courses",
     icon: "fa-solid fa-briefcase",
-    url: "/about",
+    url: "/courses",
     cName: "nav-links",
   },
   {
     name: "Contact",
     icon: "fa-solid fa-address-book",
-    url: "/about",
+    url: "/contact",
     cName: "nav-links",
   },
   {
     name: "Gallery",
     icon: "fa-solid fa-image",
-    url: "/about",
+    url: "/gallery",
     cName: "nav-links",
   },
 
