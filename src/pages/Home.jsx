@@ -1,10 +1,11 @@
 import "./Home.scss";
-import { NavbarSimple } from "../components/Header";
+import TopCourses, { TopCoursesIncludes } from "./TopCourses";
+import Reviews from "./Reviews";
+import OurCenters from "./OurCenters";
 
 function Home() {
   return (
     <>
-      <NavbarSimple />
       <div className="home-container">
         <h1>Let Your Dreams Take Flight</h1>
         <p style={{ maxWidth: "40vmax" }}>
@@ -15,6 +16,10 @@ function Home() {
         <button className="home-button">Know More</button>
         <button className="home-button">Download Brochure</button>
       </div>
+      <TopCourses />
+      <OurCenters />
+      <Reviews />
+      <TopCoursesIncludes />
     </>
   );
 }

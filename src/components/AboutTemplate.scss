@@ -1,0 +1,20 @@
+.about-template-top{
+  height:40vh;
+  background-color: #0E2643;
+}
+
+.about-template-text{
+  padding:13rem;
+h1{
+    font-size: 2rem;
+    color:white;
+    font-weight: bold;
+    align-items: flex-start;
+  }
+  p{
+    color:white;
+    span{
+      color:var(--primary-color)
+    }
+  }
+}
