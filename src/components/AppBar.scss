@@ -13,6 +13,12 @@
   height: 100px;
   border-radius: 5px;
   z-index: 9999;
+  @media screen and (max-width:850px){
+   img {
+   max-inline-size:50%;
+   block-size: auto;
+  }
+  }
 }
 .navbar-logo {
   color: #000;
